@@ -232,7 +232,7 @@ function noise(p5, fn){
    * values in the range 0 to 1. The following example uses `noise()` to create
    * a cloud-like texture effect in a filter shader.
    *
-   * ```js example
+   * @example
    * let myFilter;
    *
    * function setup() {
@@ -256,7 +256,6 @@ function noise(p5, fn){
    * function draw() {
    *   filter(myFilter);
    * }
-   * ```
    */
   fn.noise = function(x, y = 0, z = 0) {
     if (perlin == null) {

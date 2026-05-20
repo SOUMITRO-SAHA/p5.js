@@ -234,7 +234,7 @@ function random(p5, fn){
    * `random()` can also be used in shaders with p5.strands. The following example
    * uses `random()` to create varying colors on a shape.
    *
-   * ```js example
+   * @example
    * let myShader;
    *
    * function setup() {
@@ -258,7 +258,6 @@ function random(p5, fn){
    *   noStroke();
    *   sphere(30);
    * }
-   * ```
    */
   /**
    * @method random

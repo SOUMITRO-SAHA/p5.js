@@ -202,7 +202,7 @@ function timeDate(p5, fn){
    * `millis()` can also be used in shaders with p5.strands. The following example
    * uses `millis()` to create time-based color transitions on a shape.
    *
-   * ```js example
+   * @example
    * let myShader;
    *
    * function setup() {
@@ -227,7 +227,6 @@ function timeDate(p5, fn){
    *   noStroke();
    *   sphere(30);
    * }
-   * ```
    */
   fn.millis = function() {
     if (this._millisStart === -1) {
